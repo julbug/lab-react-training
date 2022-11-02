@@ -10,7 +10,7 @@ function Facebook() {
     
       {ids.map(id => {
         return (
-            <div key={id._id} className="IdCard">
+            <div key={id._id} className="Facebook">
             <img src={id.img} alt="studentId" className="photoId"/>
             <div className="Info">
             <p>First Name: {id.firstName}</p>

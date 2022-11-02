@@ -24,7 +24,7 @@ export default function Greetings(props) {
   }
   return (
     <div className="Greeting">
-    <h3> {`${greeting} ${props.children}`}</h3>
+    <p> {`${greeting} ${props.children}`}</p>
     </div>
   )
   }

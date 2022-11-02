@@ -35,3 +35,61 @@
   margin-right: 40vw;
   margin-left: 40vw;
 }
+
+.singleCC {
+  width: 30vw;
+  margin: 5px;
+  border-radius: 25px;
+  padding: 10px;
+}
+
+.bankName {
+  margin-left: 25px;
+}
+
+.ccNumber {
+  font-size: larger;
+  letter-spacing: 5px;
+}
+
+.logo {
+  float: right;
+  margin-bottom: 3px;
+  width: 30px;
+}
+
+.driverCard {
+  background-color: royalblue;
+  display: flex;
+  margin: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: small;
+  border-radius: 15px;
+}
+
+.driverPicture {
+  width: 70px;
+  height: 70px;
+  margin-right: 5px;
+  border-radius: 50%;
+}
+
+.Facebook {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  justify-content: flex-start;
+  border: solid;
+  margin-right: 46vw;
+  
+}
+
+.photoId{
+  width: 200px;
+  height: 200px;
+}
