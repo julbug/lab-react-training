@@ -1,38 +1,37 @@
-.App {
+.App{
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.IdCard {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  align-content: center;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: flex-start;
+  border: solid;
+  margin-right: 46vw;
+  
 }
 
-.App-link {
-  color: #61dafb;
+.profile{
+  width: 200px;
+  height: 200px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Greeting{
+  border: solid;
+  margin-right: 40vw;
+  margin-left: 40vw;
+}
+
+.Random{
+  border: solid;
+  margin-right: 40vw;
+  margin-left: 40vw;
+}
+
+.BoxColor{
+  border: solid;
+  margin-right: 40vw;
+  margin-left: 40vw;
 }
