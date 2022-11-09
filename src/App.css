@@ -9,13 +9,26 @@
   align-items: center;
   justify-content: flex-start;
   border: solid;
-  margin-right: 46vw;
-  
+  margin-right: 60vw;
+  margin-left: 20px;
+  flex-wrap: wrap;
 }
+  
 
 .profile{
   width: 200px;
   height: 200px;
+  padding-right: 20px;
+  padding-left: 20px
+}
+
+.text{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: flex-start;
 }
 
 .Greeting{
